@@ -14,6 +14,9 @@ body {
   margin-left: 10px;
   padding-top: 10px;
 }
+.today-forecast {
+  margin-left: 50px;
+}
 .week-forecast {
   margin-left: 40px;
 }
