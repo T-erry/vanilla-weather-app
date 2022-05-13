@@ -25,6 +25,9 @@ strong {
 li {
   list-style: none;
 }
+li::first-letter {
+  text-transform: capitalize;
+}
 .footer {
   margin-left: 30px;
 }
