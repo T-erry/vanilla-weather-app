@@ -1,6 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.header {
+  padding: 10px;
+}
 .weather-app {
   background-color: antiquewhite;
   border: 2px black solid;

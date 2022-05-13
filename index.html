@@ -23,6 +23,18 @@
   <body>
     <div class="container">
       <div class="weather-app">
+        <div class="header">
+        <form id="search-form" class="mb-3">
+          <div class="row">
+            <div class="col-9">
+          <input type="search" id="city-input" placeholder="Type a city" class = "form-control" autocomplete="off" autofocus="on"/>
+          </div>
+          <div class="col-3">
+          <button type="submit" value="search" class="btn btn-primary">search</button>
+          </div>
+          </div>
+        </form>
+        </div>
         <div class="current-weather">
           <h1 id ="city"></h1>
           <ul>
