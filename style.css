@@ -1,11 +1,14 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #e7eef5;
 }
 .header {
   padding: 10px;
 }
 .weather-app {
-  background-color: antiquewhite;
+  background-image: url(/images/bus\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 2px black solid;
   max-width: 700px;
   margin: 30px auto;
@@ -24,12 +27,13 @@ body {
   line-height: 1;
   font-weight: 400px;
 }
-strong {
+#temperature {
   font-size: 30px;
 }
 .week-forecast {
   margin-left: 30px;
 }
+
 li {
   list-style: none;
 }
@@ -40,7 +44,7 @@ li::first-letter {
   margin-left: 30px;
 }
 .today-forecast .active {
-  color: #000;
+  color: rgb(33, 33, 33);
   cursor: default;
 }
 .today-forecast .active:hover {
