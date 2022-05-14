@@ -24,19 +24,28 @@
     <div class="container">
       <div class="weather-app">
         <div class="header">
-        <form id="search-form" class="mb-3">
-          <div class="row">
-            <div class="col-9">
-          <input type="search" id="city-input" placeholder="Type a city" class = "form-control" autocomplete="off" autofocus="on"/>
-          </div>
-          <div class="col-3">
-          <button type="submit" value="search" class="btn btn-primary">search</button>
-          </div>
-          </div>
-        </form>
+          <form id="search-form" class="mb-2">
+            <div class="row">
+              <div class="col-sm-9">
+                <input
+                  type="search"
+                  id="city-input"
+                  placeholder="Type a city"
+                  class="form-control"
+                  autocomplete="off"
+                  autofocus="on"
+                />
+              </div>
+              <div class="col-sm-3">
+                <button type="submit" value="search" class="btn btn-primary">
+                  search
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
         <div class="current-weather">
-          <h1 id ="city"></h1>
+          <h1 id="city"></h1>
           <ul>
             <li>last updated on: <span id="date"></span></li>
             <li id="description"></li>
@@ -45,10 +54,12 @@
         <div class="today-forecast">
           <div class="row">
             <div class="col-sm-6">
-              <img src="#" alt="clear" id = "icon" />
-              <strong id = "temperature"></strong>
-              <span class="units"><a href="#" id="celsius-link" class="active">°C |</a>
-                 <a href="#" id="fahrenheit-link">°F</a></span>
+              <img src="#" alt="clear" id="icon" />
+              <strong id="temperature"></strong>
+              <span class="units"
+                ><a href="#" id="celsius-link" class="active">°C |</a>
+                <a href="#" id="fahrenheit-link">°F</a></span
+              >
             </div>
             <div class="col-sm-6">
               <ul>
@@ -56,38 +67,40 @@
                 <li>wind:<span id="wind"></span>km/h</li>
               </ul>
             </div>
-        </div>
           </div>
-          <div class="week-forecast">
-            <div class="row">
-              <div class="col-2">
-                <p><strong>Tuesday</strong></p>
-                <img src="/images/sunny.png" />
-                <p> <strong>26°</strong> | 25° </p>
-              </div>
-              <div class="col-2">
-                <p><strong>Wednesday</strong></p>
-                <img src="/images/partly_cloudy.png" />
-                <p><strong>25°</strong> | 27°</p>
-              </div>
-              <div class="col-2">
-                <p><strong>Thursday</strong></p>
-                <img src="/images/cloudy.png" />
-                <p> <strong>26°</strong>| 28°</p>
-              </div>
-              <div class="col-2">
-                <p><strong>Friday</strong></p>
-                <img src="/images/rain_s_cloudy.png" />
-                <p><strong>26°</strong> | 27°</p>
-              </div>
-              <div class="col-2">
-                <p><strong>Saturday</strong></p>
-                <img src="/images/cloudy.png" />
-                <p><strong>26°</strong> | 25°</p>
-              </div>
+        </div>
+        <div class="week-forecast">
+          <div class="row">
+            <div class="col-sm-2">
+              <p><strong>Tuesday</strong></p>
+              <img src="/images/sunny.png" />
+              <p><strong>26°</strong> | 25°</p>
+            </div>
+            <div class="col-sm-2">
+              <p><strong>Wednesday</strong></p>
+              <img src="/images/partly_cloudy.png" />
+              <p><strong>25°</strong> | 27°</p>
+            </div>
+            <div class="col-sm-2">
+              <p><strong>Thursday</strong></p>
+              <img src="/images/cloudy.png" />
+              <p><strong>26°</strong>| 28°</p>
+            </div>
+            <div class="col-sm-2">
+              <p><strong>Friday</strong></p>
+              <img src="/images/rain_s_cloudy.png" />
+              <p><strong>26°</strong> | 27°</p>
+            </div>
+            <div class="col-sm-2">
+              <p><strong>Saturday</strong></p>
+              <img src="/images/cloudy.png" />
+              <p><strong>26°</strong> | 25°</p>
             </div>
           </div>
-          <div class="footer">
+        </div>
+        <div class="footer">
+          <div class="row">
+            <div class="col-sm-12">
             <small>
               <a
                 href="https://github.com/T-erry/vanilla-weather-app.git"
@@ -98,6 +111,8 @@
               by Terry Wachuka and
               <a href="" target="_blank">hosted on Netlify</a>
             </small>
+            </div>
+            </div>
           </div>
         </div>
       </div>
