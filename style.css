@@ -30,6 +30,10 @@ body {
 #temperature {
   font-size: 30px;
 }
+.units {
+  position: relative;
+  top: -15px;
+}
 .week-forecast {
   margin-left: 30px;
   text-align: center;
